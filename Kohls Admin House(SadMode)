@@ -5059,6 +5059,14 @@ Tab:AddButton({
 Tab:AddParagraph("Emoji Script"," turns stuff like :sunglasses: into 😎")
 
 local Tab = Window:MakeTab({
+	Name = "KeyBinds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("KeyBinds","Comeing Soon!")
+
+local Tab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
