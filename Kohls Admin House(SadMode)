@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() ---The Loader---
 
-local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)[V0.75.65]", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
+local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
 
 local Tab = Window:MakeTab({
 	Name = "Admin Tools",
@@ -70,19 +70,6 @@ local Tab = Window:MakeTab({
 })
 local Section = Tab:AddSection({
 	Name = "Local Player"
-})
-
-Tab:AddSlider({
-	Name = "Change walkspeed(Does not work idk why)",
-	Min = 0,
-	Max = 500,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "S"
-	Callback = function(Value)
-	game.Players.Localplayer.Character.Humaniod.Walkspeed = S
-	end    
 })
 
 Tab:AddButton({
