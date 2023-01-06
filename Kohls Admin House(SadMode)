@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() ---The Loader---
 
-local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
+local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)[V0.75.65]", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
 
 local Tab = Window:MakeTab({
 	Name = "Admin Tools",
