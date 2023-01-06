@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() ---The Loader---
 
-local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
+local Window = OrionLib:MakeWindow({Name = "Kohls Admin House(Gui Hub)[V0.75.65]", HidePremium = false, SaveConfig = false, ConfigFolder = "Kohls Admin House[Orion]"}) --- Window ---
 
 local Tab = Window:MakeTab({
 	Name = "Admin Tools",
@@ -79,7 +79,7 @@ Tab:AddSlider({
 	Default = 5,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
-	ValueName = "S
+	ValueName = "S"
 	Callback = function(Value)
 	game.Players.Localplayer.Character.Humaniod.Walkspeed = S
 	end    
