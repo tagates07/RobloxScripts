@@ -1,0 +1,413 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "[Plants vs Zombies Defenders] [V0.75.34(Beta)] (Gui Hub)", HidePremium = false, SaveConfig = false, ConfigFolder = "Config [[Plants vs Zombies Defenders] (Gui Hub)]]"})
+
+OrionLib:MakeNotification({
+	Name = "Script Loaded",
+	Content = "This script is made by Doge The Doggo#3390",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+local Tab = Window:MakeTab({
+	Name = "Lobby",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Unequip all items",
+	Callback = function()
+		local args = {
+			[1] = 6,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		local args = {
+			[1] = 5,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		local args = {
+			[1] = 4,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		local args = {
+			[1] = 3,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		local args = {
+			[1] = 2,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		local args = {
+			[1] = 1,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("UnequipPlanta \195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Plants",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Attack (6 Plants Max)"
+})
+
+Tab:AddButton({
+	Name = "SnowPeashooter",
+	Callback = function()
+		local args = {
+			[1] = "SnowPeashooter",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cactus",
+	Callback = function()
+		local args = {
+			[1] = "Cactus",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KernelPult",
+	Callback = function()
+		local args = {
+			[1] = "KernelPult",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ScaredyShroom",
+	Callback = function()
+		local args = {
+			[1] = "ScaredyShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "FumeShroom",
+	Callback = function()
+		local args = {
+			[1] = "FumeShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "BonkChoy",
+	Callback = function()
+		local args = {
+			[1] = "BonkChoy",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "MelonPult",
+	Callback = function()
+		local args = {
+			[1] = "MelonPult",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Bloomerang",
+	Callback = function()
+		local args = {
+			[1] = "Bloomerang",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "LightningReed",
+	Callback = function()
+		local args = {
+			[1] = "LightningReed",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+		
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Pyra-Shroom",
+	Callback = function()
+		local args = {
+			[1] = "Pyra-Shroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+			
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+				
+  	end    
+})
+
+Tab:AddButton({
+	Name = "WitherFlower",
+	Callback = function()
+		local args = {
+			[1] = "WitherFlower",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Support (6 Plants Max)"
+})
+
+Tab:AddButton({
+	Name = "Pot",
+	Callback = function()
+		local args = {
+			[1] = "Pot",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "LilyPad (REQUIRES WATER)",
+	Callback = function()
+		local args = {
+			[1] = "LilyPad",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Umbrella-Leaf",
+	Callback = function()
+		local args = {
+			[1] = "Umbrella-Leaf",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "SunShroom",
+	Callback = function()
+		local args = {
+			[1] = "SunShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+		
+  	end    
+})
+
+Tab:AddButton({
+	Name = "TorchWood",
+	Callback = function()
+		local args = {
+			[1] = "TorchWood",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+			
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ZoyBeanPod",
+	Callback = function()
+		local args = {
+			[1] = "ZoyBeanPod",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Defense"
+})
+
+Tab:AddButton({
+	Name = "Chomper",
+	Callback = function()
+		local args = {
+			[1] = "Chomper",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cherry_Bomb",
+	Callback = function()
+		local args = {
+			[1] = "Cherry_Bomb",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Buttercup",
+	Callback = function()
+		local args = {
+			[1] = "Buttercup",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "ScaredyShroom",
+	Callback = function()
+		local args = {
+			[1] = "ScaredyShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Tangle Kelp (WATER REQUIRED)",
+	Callback = function()
+		local args = {
+			[1] = "Tangle Kelp",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Hypno",
+	Callback = function()
+		local args = {
+			[1] = "Hypno",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Spikeweed",
+	Callback = function()
+		local args = {
+			[1] = "Spikeweed",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "DoomShroom - (OP)",
+	Callback = function()
+		local args = {
+			[1] = "DoomShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
+
+Tab:AddButton({
+	Name = "IceShroom",
+	Callback = function()
+		local args = {
+			[1] = "IceShroom",
+			[2] = game:GetService("Players").LocalPlayer
+		}
+					
+		game:GetService("ReplicatedStorage").Plants:FindFirstChild("EquipaPlanta\195\145"):FireServer(unpack(args))
+					
+  	end    
+})
